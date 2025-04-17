@@ -19967,6 +19967,27 @@
       }
     ]
   },
+  "jandan.net": {
+    "_name": "煎蛋",
+    "i": [
+      {
+        "title": "Feed",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/"
+        ],
+        "target": "/jandan/jandan"
+      },
+      {
+        "title": "Section",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/:category"
+        ],
+        "target": "/jandan/jandan/:category?"
+      }
+    ]
+  },
   "javbus.com": {
     "_name": "JavBus",
     "www": [
@@ -20648,6 +20669,19 @@
       }
     ]
   },
+  "jpmorganchase.com": {
+    "_name": "JPMorgan Chase",
+    ".": [
+      {
+        "title": "Research Topics",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/institute/all-topics"
+        ],
+        "target": "/jpmorganchase/"
+      }
+    ]
+  },
   "12356782.xyz": {
     "_name": "极品性感美女",
     "www": [
@@ -21068,7 +21102,7 @@
     ]
   },
   "kurogames.com": {
-    "_name": "库洛游戏",
+    "_name": "库洛游戏 | Kuro Games",
     "mc": [
       {
         "title": "鸣潮 — 游戏公告、新闻与活动",
@@ -21077,7 +21111,18 @@
           "/m/main/news",
           "/main"
         ],
-        "target": "/kurogames/wutheringwaves/news"
+        "target": "/kurogames/wutheringwaves/news/:language?"
+      }
+    ],
+    "wutheringwaves": [
+      {
+        "title": "Wuthering Waves — Game announcements, news and events",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/en/main/news",
+          "/en/main"
+        ],
+        "target": "/kurogames/wutheringwaves/news/:language?"
       }
     ]
   },
