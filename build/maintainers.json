@@ -1612,10 +1612,10 @@
   ],
   "/cneb/yjxx/*": [],
   "/cngal/entry/:id": [
-    "kmod-midori"
+    "chengyuhui"
   ],
   "/cngal/weekly": [
-    "kmod-midori"
+    "chengyuhui"
   ],
   "/cngold/:category?": [
     "nczitzk"
@@ -2484,10 +2484,10 @@
     "TonyRL"
   ],
   "/ff14/global/:lang/:type?": [
-    "kmod-midori"
+    "chengyuhui"
   ],
   "/ff14/ff14_global/:lang/:type?": [
-    "kmod-midori"
+    "chengyuhui"
   ],
   "/ff14/zh/:type?": [
     "Kiotlin",
