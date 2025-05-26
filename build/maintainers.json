@@ -582,6 +582,9 @@
   "/apple/podcast/:id/:region?": [
     "Acring"
   ],
+  "/apple/security-releases/:language?": [
+    "nczitzk"
+  ],
   "/appleinsider/:category?": [
     "nczitzk"
   ],
@@ -7026,6 +7029,9 @@
     "naremloa",
     "fenxer"
   ],
+  "/steam/news/:appid/:language?": [
+    "keocheung"
+  ],
   "/steam/search/:params": [
     "moppman"
   ],
@@ -7867,6 +7873,9 @@
   "/visionias/weeklyFocus": [
     "Rjnishant530"
   ],
+  "/visualstudio/code/blog": [
+    "cscnk52"
+  ],
   "/vocus/publication/:id": [
     "Maecenas"
   ],
@@ -7928,6 +7937,9 @@
   ],
   "/wanqu/news": [
     "Fatpandac"
+  ],
+  "/warp/blog": [
+    "cscnk52"
   ],
   "/warthunder/news": [
     "axojhf"
@@ -8223,7 +8235,8 @@
   "/xiaoyuzhou/podcast/:id": [
     "hondajojo",
     "jtsang4",
-    "pseudoyu"
+    "pseudoyu",
+    "cscnk52"
   ],
   "/xiaozhuanlan/column/:id": [
     "TonyRL"
@@ -8256,6 +8269,9 @@
   ],
   "/xjtu/dean/:subpath{.+}": [
     "hoilc"
+  ],
+  "/xjtu/ee/jzxx/:category?": [
+    "riverflows2333"
   ],
   "/xjtu/ee/:id?": [
     "DylanXie123"
@@ -8481,6 +8497,9 @@
     "Fatpandac",
     "nczitzk"
   ],
+  "/yuanliao/:tag?": [
+    "nczitzk"
+  ],
   "/yuque/:name/:book": [
     "aha2mao",
     "ltaoo"
@@ -8559,6 +8578,9 @@
   ],
   "/zcool/user/:uid": [
     "junbaor"
+  ],
+  "/zed/blog": [
+    "cscnk52"
   ],
   "/zhibo8/forum/:id": [
     "LogicJake"

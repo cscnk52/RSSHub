@@ -5167,6 +5167,14 @@
           "/:country/service-programs"
         ],
         "target": "/apple/exchange_repair/:country"
+      },
+      {
+        "title": "Security releases",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/:language/100100"
+        ],
+        "target": "/appleparams=>{const language=params.language;return`/apple/security-releases${language?`/${language}`:\"\"}`}"
       }
     ],
     "podcasts": [
@@ -25450,7 +25458,7 @@
         "title": "最近更新",
         "docs": "https://docs.rsshub.app/routes/multimedia",
         "source": [
-          "/dm397/new",
+          "/dm514/new",
           "/new",
           "/"
         ],
@@ -25465,7 +25473,7 @@
         "title": "最近更新",
         "docs": "https://docs.rsshub.app/routes/multimedia",
         "source": [
-          "/dm397/new",
+          "/dm514/new",
           "/new",
           "/"
         ],
@@ -34010,6 +34018,17 @@
         "target": "/steam/appcommunityfeed/:appid"
       },
       {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/app/:appid",
+          "/app/:appid/allnews",
+          "/app/:appid/announcements",
+          "/app/:appid/news"
+        ],
+        "target": "/steam/news/:appid"
+      },
+      {
         "title": "Sharefile Changelog",
         "docs": "https://docs.rsshub.app/routes/game",
         "source": [
@@ -37243,6 +37262,19 @@
       }
     ]
   },
+  "visualstudio.com": {
+    "_name": "Visual Studio",
+    "code": [
+      {
+        "title": "Code Blog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/"
+        ],
+        "target": "/visualstudio/code/blog"
+      }
+    ]
+  },
   "vocus.cc": {
     "_name": "方格子",
     ".": [
@@ -37519,6 +37551,19 @@
           "/"
         ],
         "target": "/wanqu/news"
+      }
+    ]
+  },
+  "warp.dev": {
+    "_name": "Warp",
+    "www": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/"
+        ],
+        "target": "/warp/blog"
       }
     ]
   },
@@ -38199,6 +38244,14 @@
     "_name": "西安交通大学",
     "ee": [
       {
+        "title": "电气学院通知",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/jzxx/:category?.htm"
+        ],
+        "target": "/xjtu/ee/jzxx/:category?"
+      },
+      {
         "title": "电气学院",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
@@ -38740,6 +38793,84 @@
       }
     ]
   },
+  "yuanliao.info": {
+    "_name": "猿料",
+    ".": [
+      {
+        "title": "主题",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/",
+          "/t/:tag"
+        ],
+        "target": "/yuanliaoparams=>{const tag=params.tag;return`/yuanliao${tag?`/${tag}`:\"\"}`}"
+      },
+      {
+        "title": "问题反馈",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/t/bug-report"
+        ],
+        "target": "/yuanliao/bug-report"
+      },
+      {
+        "title": "Windows",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/t/windows"
+        ],
+        "target": "/yuanliao/windows"
+      },
+      {
+        "title": "macOS",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/t/macos"
+        ],
+        "target": "/yuanliao/macos"
+      },
+      {
+        "title": "Linux",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/t/linux"
+        ],
+        "target": "/yuanliao/linux"
+      },
+      {
+        "title": "意见建议",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/t/suggestions"
+        ],
+        "target": "/yuanliao/suggestions"
+      },
+      {
+        "title": "插件发布",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/t/plugins"
+        ],
+        "target": "/yuanliao/plugins"
+      },
+      {
+        "title": "插件需求",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/t/plugin-needs"
+        ],
+        "target": "/yuanliao/plugin-needs"
+      },
+      {
+        "title": "开发者",
+        "docs": "https://docs.rsshub.app/routes/bbs",
+        "source": [
+          "/t/developers"
+        ],
+        "target": "/yuanliao/developers"
+      }
+    ]
+  },
   "yuque.com": {
     "_name": "语雀",
     ".": [
@@ -38886,6 +39017,19 @@
           "/u/:id"
         ],
         "target": "/zcool/user/:id"
+      }
+    ]
+  },
+  "zed.dev": {
+    "_name": "Zed",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/"
+        ],
+        "target": "/zed/blog"
       }
     ]
   },
