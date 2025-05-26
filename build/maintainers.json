@@ -4556,6 +4556,9 @@
     "wb14123",
     "pseudoyu"
   ],
+  "/lenovo/drive/:selName": [
+    "cscnk52"
+  ],
   "/lens/profile/:handle": [
     "DIYgod"
   ],
@@ -5830,7 +5833,8 @@
   "/picnob/user/:id/:type?": [
     "TonyRL",
     "micheal-death",
-    "AiraNadih"
+    "AiraNadih",
+    "DIYgod"
   ],
   "/picuki/profile/:id/:type?/:functionalFlag?": [
     "hoilc",
@@ -7330,7 +7334,8 @@
   ],
   "/theblockbeats/:channel?/:original?": [
     "Fatpandac",
-    "jameshih"
+    "jameshih",
+    "DIYgod"
   ],
   "/thecover/channel/:id?": [
     "yuxinliu-alex"
